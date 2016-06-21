@@ -18,5 +18,11 @@
   "homepage": "https://github.com/guillaumewuip/pluie-dans-l-heure#readme",
   "dependencies": {
     "node-fetch": "^1.5.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
   }
 }
