@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "0.1.0",
+  "description": "Interrogation de Pluie dans l'heure de Météo France",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumewuip/pluie-dans-l-heure.git"
+  },
+  "author": "Guillaume <guillaume@wuips.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumewuip/pluie-dans-l-heure/issues"
+  },
+  "homepage": "https://github.com/guillaumewuip/pluie-dans-l-heure#readme",
+  "dependencies": {
+    "node-fetch": "^1.5.3"
+  }
+}
