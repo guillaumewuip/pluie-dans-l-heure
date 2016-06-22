@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/guillaumewuip/pluie-dans-l-heure#readme",
   "dependencies": {
+    "moment": "^2.13.0",
     "node-fetch": "^1.5.3"
   },
   "devDependencies": {
