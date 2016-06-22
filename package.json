@@ -4,7 +4,7 @@
   "description": "Interrogation de Pluie dans l'heure de Météo France",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "gulp js:lint && mocha"
   },
   "repository": {
     "type": "git",
