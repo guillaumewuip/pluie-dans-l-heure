@@ -11,6 +11,7 @@
             src : [
                 'index.js',
                 'lib/**/*.js',
+                'test/**/*.js',
             ],
         },
     };
