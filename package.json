@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "pluie-dans-l-heure",
   "version": "0.1.0",
   "description": "Interrogation de Pluie dans l'heure de Météo France",
   "main": "index.js",
