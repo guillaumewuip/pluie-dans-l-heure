@@ -17,7 +17,7 @@
             utils.addLockedProperty(obj, 'p', 1234);
             try {
                 obj.p = 5678;
-                done(false);
+                done('should not pass here');
             } catch(e) {
                 done();
             }

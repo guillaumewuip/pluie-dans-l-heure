@@ -38,13 +38,13 @@
 
         it('should fail if URL is 404', function (done) {
             request('404')
-                .then(() => done(false))
+                .then(() => done('should not pass here'))
                 .catch(() => done());
         });
 
         it(`should fail if can't convert JSON`, function (done) {
             request('noJSON')
-                .then(() => done(false))
+                .then(() => done('should not pass here'))
                 .catch(() => done());
         });
 

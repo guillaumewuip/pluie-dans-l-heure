@@ -20,8 +20,12 @@
     rain.request = request;
 
     rain.get = (id) => {
-            return request(id).then((res) => {
-            return res.hasData ? status(res) : new Error('no data');
+        return request(id).then((res) => {
+            if (!res.hasData) {
+                throw new Error('no data');
+            }
+
+            return status(res);
         });
     };
 
