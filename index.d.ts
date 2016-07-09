@@ -1,5 +1,5 @@
 
-enum RAIN_TYPE {
+export enum RAIN_TYPE {
     NO_DATA,
     NO_RAIN,
     LIGHT_RAIN,
